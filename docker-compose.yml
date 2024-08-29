@@ -1,0 +1,17 @@
+version: '4.33.1'
+
+services:
+  db:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: postgres.ieinhtoruxmhssnqzepg
+      POSTGRES_PASSWORD: cp1141rm1hf
+      POSTGRES_DB: postgres
+    ports:
+      - '6543:6543'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
