@@ -24,7 +24,7 @@ Backend para a aplicação verzel_app_back, desenvolvido com Node.js, Express, e
 
 
 ```bash
- git clone https://github.com/seu-usuario/verzel_app_back.git
+ git clone https://github.com/GabrielKLopes/app_verzel_backend_final.git
  cd verzel_app_back
 
  npm install
