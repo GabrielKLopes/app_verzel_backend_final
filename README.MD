@@ -28,6 +28,7 @@ Backend para a aplicação verzel_app_back, desenvolvido com Node.js, Express, e
  cd verzel_app_back
 
  npm install
+ npm install axios caso o node_modules não traga
 
  Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
 
